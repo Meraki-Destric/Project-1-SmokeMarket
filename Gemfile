@@ -33,7 +33,6 @@ gem "bulma-rails", "~> 0.6.1"
 gem "bulma", "~> 0.1.0"
 gem "simple_form", "~> 5.1"
 gem "gravatar_image_tag", "~> 1.2"
-gem "pg", "~> 1.2", ">= 1.2.3"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -42,6 +41,7 @@ group :development, :test do
 end
 
 group :production do
+  gem "pg", "~> 1.2", ">= 1.2.3"
   gem "rails_12factor"
 end
 
