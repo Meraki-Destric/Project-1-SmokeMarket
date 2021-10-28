@@ -30,7 +30,6 @@ gem "bootsnap", ">= 1.4.4", require: false
 gem "devise", "~> 4.8"
 
 gem "bulma-rails", "~> 0.6.1"
-gem "actionpack", "~> 6.1", ">= 6.1.4.1"
 gem "simple_form", "~> 5.1"
 gem "gravatar_image_tag", "~> 1.2"
 
