@@ -180,3 +180,2179 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 101ms (Views: 87.8ms | ActiveRecord: 1.1ms | Allocations: 14035)
 
 
+Started GET "/posts" for ::1 at 2021-10-28 20:23:27 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:14
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1016)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 76.8ms | Allocations: 5915)
+Completed 200 OK in 85ms (Views: 83.0ms | ActiveRecord: 0.2ms | Allocations: 7135)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:23:52 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:14
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1016)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 62.1ms | Allocations: 5910)
+Completed 200 OK in 72ms (Views: 68.9ms | ActiveRecord: 0.2ms | Allocations: 7135)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:28:24 +1100
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:14
+  Rendered posts/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3728)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 165.6ms | Allocations: 21146)
+Completed 200 OK in 185ms (Views: 172.7ms | ActiveRecord: 1.1ms | Allocations: 24199)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:33:27 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_feed.html.erb (Duration: 72.2ms | Allocations: 8987)
+  Rendered posts/index.html.erb within layouts/application (Duration: 79.9ms | Allocations: 9305)
+  Rendered layout layouts/application.html.erb (Duration: 80.2ms | Allocations: 9402)
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.0ms | Allocations: 10592)
+
+
+
+NameError - undefined local variable or method `post' for #<ActionView::Base:0x0000000000a078>
+Did you mean?  @posts:
+  app/views/posts/_feed.html.erb:10
+  app/views/posts/index.html.erb:4
+
+Started POST "/__better_errors/e4dcc33a347c7634/variables" for ::1 at 2021-10-28 20:33:27 +1100
+Started GET "/posts" for ::1 at 2021-10-28 20:34:26 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/posts/_feed.html.erb:8
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/_feed.html.erb:8
+  Rendered posts/_feed.html.erb (Duration: 18.2ms | Allocations: 1746)
+  Rendered posts/index.html.erb within layouts/application (Duration: 20.2ms | Allocations: 2059)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 64.8ms | Allocations: 6957)
+Completed 200 OK in 73ms (Views: 71.0ms | ActiveRecord: 0.6ms | Allocations: 8183)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:35:27 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/_feed.html.erb:8
+  Rendered posts/_feed.html.erb (Duration: 2.7ms | Allocations: 979)
+  Rendered posts/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 1370)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 66.8ms | Allocations: 6251)
+Completed 200 OK in 77ms (Views: 74.2ms | ActiveRecord: 0.2ms | Allocations: 7458)
+
+
+Started GET "/posts/new" for ::1 at 2021-10-28 20:35:43 +1100
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 69.7ms | Allocations: 6893)
+  Rendered posts/new.html.erb within layouts/application (Duration: 78.7ms | Allocations: 7235)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 131.5ms | Allocations: 11487)
+Completed 200 OK in 134ms (Views: 132.0ms | ActiveRecord: 0.0ms | Allocations: 12055)
+
+
+Started POST "/posts" for ::1 at 2021-10-28 20:35:47 +1100
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"content"=>"Test 2"}, "commit"=>"Create Post"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:27:in `block in create'
+  [1m[36mPost Create (1.4ms)[0m  [1m[32mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Test 2"], ["created_at", "2021-10-28 09:35:47.753863"], ["updated_at", "2021-10-28 09:35:47.753863"]]
+  ↳ app/controllers/posts_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (17.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/posts/2
+Completed 302 Found in 25ms (ActiveRecord: 18.9ms | Allocations: 2721)
+
+
+Started GET "/posts/2" for ::1 at 2021-10-28 20:35:47 +1100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:62:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 213)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 50.4ms | Allocations: 4539)
+Completed 200 OK in 56ms (Views: 50.9ms | ActiveRecord: 0.3ms | Allocations: 6041)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:35:50 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/_feed.html.erb:8
+  Rendered posts/_feed.html.erb (Duration: 2.1ms | Allocations: 863)
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 993)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 50.6ms | Allocations: 5306)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.2ms | Allocations: 5740)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:36:07 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/_feed.html.erb:5
+  Rendered posts/_feed.html.erb (Duration: 16.0ms | Allocations: 1059)
+  Rendered posts/index.html.erb within layouts/application (Duration: 18.1ms | Allocations: 1446)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 71.6ms | Allocations: 6329)
+Completed 200 OK in 80ms (Views: 77.6ms | ActiveRecord: 0.3ms | Allocations: 7542)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:37:18 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/_feed.html.erb:5
+  Rendered posts/_feed.html.erb (Duration: 18.4ms | Allocations: 1059)
+  Rendered posts/index.html.erb within layouts/application (Duration: 20.5ms | Allocations: 1445)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 63.4ms | Allocations: 6331)
+Completed 200 OK in 73ms (Views: 69.7ms | ActiveRecord: 0.6ms | Allocations: 7544)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:41:43 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/_feed.html.erb:5
+  Rendered posts/_feed.html.erb (Duration: 32.1ms | Allocations: 5329)
+  Rendered posts/index.html.erb within layouts/application (Duration: 34.3ms | Allocations: 5694)
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 5791)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.3ms | Allocations: 6971)
+
+
+
+NameError - undefined local variable or method `tweeet' for #<ActionView::Base:0x0000000000ae60>:
+  app/views/posts/_feed.html.erb:21
+  app/views/posts/_feed.html.erb:5
+  app/views/posts/index.html.erb:7
+
+Started POST "/__better_errors/657f2f5171a402d4/variables" for ::1 at 2021-10-28 20:41:44 +1100
+Started GET "/posts" for ::1 at 2021-10-28 20:41:54 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/_feed.html.erb:5
+  Rendered posts/_feed.html.erb (Duration: 27.1ms | Allocations: 4172)
+  Rendered posts/index.html.erb within layouts/application (Duration: 29.2ms | Allocations: 4543)
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 4640)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.3ms | Allocations: 5827)
+
+
+
+NoMethodError - undefined method `stringify_keys' for #<Post:0x000001b1f0369ef0>:
+  app/views/posts/_feed.html.erb:24
+  app/views/posts/_feed.html.erb:5
+  app/views/posts/index.html.erb:7
+
+Started POST "/__better_errors/5717a25bcf2c6a63/variables" for ::1 at 2021-10-28 20:41:54 +1100
+Started GET "/posts" for ::1 at 2021-10-28 20:43:10 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_feed.html.erb (Duration: 22.2ms | Allocations: 1455)
+  Rendered posts/index.html.erb within layouts/application (Duration: 24.4ms | Allocations: 1821)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 1919)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms | Allocations: 3106)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%# Bulma Formatting??? If it works%>
+<div class="column is-half">
+  <article class="media box">
+    <figure class="media-left">
+      <% @posts.each do | post | %>
+        <div class="card">
+          <div class="card-body">
+            <p class="image is-64x64">
+              <img src="https://bulma.io/images/placeholders/64x64.png" style="border-radius: 50%">
+            </p>
+            <h5 class="card-title">USER NAME HERE</h5>
+            <h6 class="card-subtitle mb-2 text-muted">@USERNAME HERE</h6>
+            <p class="card-text"><%= post.content%></p>
+            <%= link_to 'Edit', edit_post_path(post), class: "btn btn-dark btn-secondary btn-sm" %>
+            <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }, 
+            class: "btn btn-dark btn-secondary btn-sm"  %>
+            <nav class="level">
+              <div class="level-left is-mobile">
+                <%= link_to post, class: "level-item" do %>
+                  <span class="icon"><i class="fa fa-link" aria-hidden="true"></i></span>
+                <% end %>
+                <%= link_to edit_post_path(post), class: "level-item" do %>
+                  <span class="icon"><i class="fa fa-pencil" aria-hidden="true"></i></span>
+                <% end %>
+                <%= link_to "Destroy" post, method: :delete, data: { confirm: "Are you sure you want to delete this post?" } do %>
+                  <span class="icon"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
+                <% end %>
+              </div>
+            </nav>
+          </div>
+        </div>
+      <%end%>
+    </figure>
+  </article>
+</div>:
+  app/views/posts/index.html.erb:7
+
+Started POST "/__better_errors/00ab54e30da2d3bf/variables" for ::1 at 2021-10-28 20:43:11 +1100
+Started GET "/posts" for ::1 at 2021-10-28 20:43:42 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/_feed.html.erb:5
+  Rendered posts/_feed.html.erb (Duration: 28.5ms | Allocations: 1426)
+  Rendered posts/index.html.erb within layouts/application (Duration: 30.7ms | Allocations: 1813)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 88.6ms | Allocations: 6703)
+Completed 200 OK in 98ms (Views: 95.1ms | ActiveRecord: 0.3ms | Allocations: 7916)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:45:06 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/_feed.html.erb:5
+  Rendered posts/_feed.html.erb (Duration: 16.0ms | Allocations: 1060)
+  Rendered posts/index.html.erb within layouts/application (Duration: 18.0ms | Allocations: 1447)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 67.7ms | Allocations: 6329)
+Completed 200 OK in 76ms (Views: 73.8ms | ActiveRecord: 0.2ms | Allocations: 7544)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:46:48 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_feed.html.erb (Duration: 10.8ms | Allocations: 4263)
+  Rendered posts/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 4629)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 4726)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 5912)
+
+
+
+NoMethodError - undefined method `user_signed_in?' for #<ActionView::Base:0x0000000000b590>:
+  app/views/posts/_feed.html.erb:3
+  app/views/posts/index.html.erb:7
+
+Started POST "/__better_errors/aa9cce54408d2ccd/variables" for ::1 at 2021-10-28 20:46:48 +1100
+Started GET "/posts" for ::1 at 2021-10-28 20:47:02 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_feed.html.erb (Duration: 28.1ms | Allocations: 4565)
+  Rendered posts/index.html.erb within layouts/application (Duration: 30.9ms | Allocations: 4932)
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 5029)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms | Allocations: 6215)
+
+
+
+NameError - undefined local variable or method `current_user' for #<ActionView::Base:0x0000000000b6f8>
+Did you mean?  current_cycle:
+  app/views/posts/_feed.html.erb:6
+  app/views/posts/index.html.erb:7
+
+Started POST "/__better_errors/b8611809277c2f36/variables" for ::1 at 2021-10-28 20:47:02 +1100
+Started GET "/posts" for ::1 at 2021-10-28 20:47:22 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_feed.html.erb (Duration: 19.8ms | Allocations: 1792)
+  Rendered posts/index.html.erb within layouts/application (Duration: 21.8ms | Allocations: 2163)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 2260)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms | Allocations: 3446)
+
+
+
+ActionView::MissingTemplate - Missing partial tweeets/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "C:/Users/Joshua/Projects/smokemarket/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actiontext-6.1.4.1/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actionmailbox-6.1.4.1/app/views":
+  app/views/posts/_feed.html.erb:10
+  app/views/posts/index.html.erb:7
+
+Started POST "/__better_errors/d06f9ef890c0aa4f/variables" for ::1 at 2021-10-28 20:47:22 +1100
+Started GET "/posts" for ::1 at 2021-10-28 20:47:44 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/_feed.html.erb:13
+  Rendered posts/_feed.html.erb (Duration: 16.8ms | Allocations: 1068)
+  Rendered posts/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 1456)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 69.4ms | Allocations: 6343)
+Completed 200 OK in 78ms (Views: 75.4ms | ActiveRecord: 0.3ms | Allocations: 7556)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:48:02 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 14.4ms | Allocations: 1050)
+  Rendered posts/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 1437)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 65.8ms | Allocations: 6318)
+Completed 200 OK in 75ms (Views: 71.9ms | ActiveRecord: 0.3ms | Allocations: 7531)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:54:02 +1100
+Processing by PostsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/posts_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 4.4ms | Allocations: 2548)
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2680)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 48.9ms | Allocations: 6975)
+Completed 200 OK in 53ms (Views: 49.4ms | ActiveRecord: 0.7ms | Allocations: 8443)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:56:51 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.7ms | Allocations: 1060)
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1452)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 59.6ms | Allocations: 6371)
+Completed 200 OK in 69ms (Views: 66.0ms | ActiveRecord: 0.3ms | Allocations: 7602)
+
+
+Started GET "/posts" for ::1 at 2021-10-28 20:59:29 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.8ms | Allocations: 1060)
+  Rendered posts/_form.html.erb (Duration: 623.6ms | Allocations: 16405)
+  Rendered posts/index.html.erb within layouts/application (Duration: 638.7ms | Allocations: 18067)
+  Rendered layout layouts/application.html.erb (Duration: 638.9ms | Allocations: 18164)
+Completed 500 Internal Server Error in 647ms (ActiveRecord: 0.3ms | Allocations: 19368)
+
+
+
+NoMethodError - undefined method `model_name' for nil:NilClass:
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/024c3c4ed2b689ab/variables" for ::1 at 2021-10-28 20:59:30 +1100
+Started GET "/posts" for ::1 at 2021-10-28 21:00:28 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.8ms | Allocations: 1060)
+  Rendered posts/_form.html.erb (Duration: 14.4ms | Allocations: 1784)
+  Rendered posts/index.html.erb within layouts/application (Duration: 21.6ms | Allocations: 3447)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 3544)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.3ms | Allocations: 4748)
+
+
+
+NoMethodError - undefined method `model_name' for nil:NilClass:
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/b14adf8a1b2674ab/variables" for ::1 at 2021-10-28 21:00:29 +1100
+Started GET "/posts" for ::1 at 2021-10-28 21:01:12 +1100
+Processing by PostsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/posts_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.7ms | Allocations: 1122)
+  Rendered posts/_form.html.erb (Duration: 27.7ms | Allocations: 6228)
+  Rendered posts/index.html.erb within layouts/application (Duration: 34.2ms | Allocations: 7951)
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 8048)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 1.5ms | Allocations: 12145)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/cce66bf0ede14e47/variables" for ::1 at 2021-10-28 21:01:12 +1100
+Started GET "/posts" for ::1 at 2021-10-28 21:03:13 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.9ms | Allocations: 1060)
+  Rendered posts/_form.html.erb (Duration: 20.3ms | Allocations: 5575)
+  Rendered posts/index.html.erb within layouts/application (Duration: 27.1ms | Allocations: 7240)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 7337)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.3ms | Allocations: 8554)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/788291b6fd307ba6/variables" for ::1 at 2021-10-28 21:03:14 +1100
+Started GET "/" for ::1 at 2021-10-28 21:11:31 +1100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.7ms | Allocations: 1183)
+  Rendered posts/_form.html.erb (Duration: 24.7ms | Allocations: 12433)
+  Rendered posts/index.html.erb within layouts/application (Duration: 31.7ms | Allocations: 14353)
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | Allocations: 14455)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 1.1ms | Allocations: 19981)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/b2392c1095ef24ca/variables" for ::1 at 2021-10-28 21:11:32 +1100
+Started GET "/" for ::1 at 2021-10-28 21:14:13 +1100
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.9ms | Allocations: 1183)
+  Rendered posts/_form.html.erb (Duration: 48.8ms | Allocations: 14704)
+  Rendered posts/index.html.erb within layouts/application (Duration: 56.5ms | Allocations: 16624)
+  Rendered layout layouts/application.html.erb (Duration: 56.8ms | Allocations: 16726)
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 1.2ms | Allocations: 22252)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/66476cdfc3d7be2f/variables" for ::1 at 2021-10-28 21:14:13 +1100
+Started GET "/" for ::1 at 2021-10-28 21:14:21 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.5ms | Allocations: 1069)
+  Rendered posts/_form.html.erb (Duration: 8.6ms | Allocations: 513)
+  Rendered posts/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 2207)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 100.5ms | Allocations: 9909)
+Completed 200 OK in 109ms (Views: 106.5ms | ActiveRecord: 0.3ms | Allocations: 11175)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:14:21 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:17:13 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.7ms | Allocations: 1067)
+  Rendered posts/_form.html.erb (Duration: 18.5ms | Allocations: 5590)
+  Rendered posts/index.html.erb within layouts/application (Duration: 25.1ms | Allocations: 7260)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 7358)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.3ms | Allocations: 8586)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/4cc0460696094f81/variables" for ::1 at 2021-10-28 21:17:13 +1100
+Started GET "/" for ::1 at 2021-10-28 21:17:54 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.4ms | Allocations: 1060)
+  Rendered posts/_form.html.erb (Duration: 12.5ms | Allocations: 1331)
+  Rendered posts/index.html.erb within layouts/application (Duration: 18.7ms | Allocations: 2992)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 3089)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.3ms | Allocations: 4306)
+
+
+
+ArgumentError - wrong number of arguments (given 3, expected 1..2):
+  app/views/posts/_form.html.erb:3
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/930511913e7c5b21/variables" for ::1 at 2021-10-28 21:17:54 +1100
+Started GET "/" for ::1 at 2021-10-28 21:18:06 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.4ms | Allocations: 1060)
+  Rendered posts/_form.html.erb (Duration: 13.7ms | Allocations: 3205)
+  Rendered posts/index.html.erb within layouts/application (Duration: 19.9ms | Allocations: 4863)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 4960)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.3ms | Allocations: 6171)
+
+
+
+NoMethodError - undefined method `name' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:2
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/a5f1a8410e8d7feb/variables" for ::1 at 2021-10-28 21:18:06 +1100
+Started GET "/" for ::1 at 2021-10-28 21:19:44 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.1ms | Allocations: 871)
+  Rendered posts/_form.html.erb (Duration: 2.4ms | Allocations: 2966)
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 4037)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 4134)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.3ms | Allocations: 4558)
+
+
+
+NoMethodError - undefined method `name' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:2
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/c1fca26ef447107d/variables" for ::1 at 2021-10-28 21:19:45 +1100
+Started GET "/" for ::1 at 2021-10-28 21:19:51 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.5ms | Allocations: 1060)
+  Rendered posts/_form.html.erb (Duration: 16.5ms | Allocations: 5588)
+  Rendered posts/index.html.erb within layouts/application (Duration: 22.9ms | Allocations: 7253)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 7350)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.3ms | Allocations: 8567)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/63451a75ef32a0a1/variables" for ::1 at 2021-10-28 21:19:51 +1100
+Started GET "/" for ::1 at 2021-10-28 21:28:04 +1100
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.8ms | Allocations: 1183)
+  Rendered posts/_form.html.erb (Duration: 25.0ms | Allocations: 12430)
+  Rendered posts/index.html.erb within layouts/application (Duration: 32.2ms | Allocations: 14350)
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 14452)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 1.1ms | Allocations: 19978)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/98cd750a5dc8ebf7/variables" for ::1 at 2021-10-28 21:28:05 +1100
+Started GET "/" for ::1 at 2021-10-28 21:28:06 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 1.9ms | Allocations: 876)
+  Rendered posts/_form.html.erb (Duration: 5.1ms | Allocations: 5420)
+  Rendered posts/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 6496)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 6594)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.3ms | Allocations: 7029)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/a4af2eb39b8f90c2/variables" for ::1 at 2021-10-28 21:28:06 +1100
+Started GET "/" for ::1 at 2021-10-28 21:29:22 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.0ms | Allocations: 872)
+  Rendered posts/_form.html.erb (Duration: 5.6ms | Allocations: 5404)
+  Rendered posts/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 6475)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 6573)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.3ms | Allocations: 7007)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/83e20340b34eb62e/variables" for ::1 at 2021-10-28 21:29:22 +1100
+Started GET "/" for ::1 at 2021-10-28 21:29:26 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.4ms | Allocations: 1068)
+  Rendered posts/_form.html.erb (Duration: 16.8ms | Allocations: 4587)
+  Rendered posts/index.html.erb within layouts/application (Duration: 22.8ms | Allocations: 6260)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 6358)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.3ms | Allocations: 7588)
+
+
+
+NameError - undefined local variable or method `post' for #<ActionView::Base:0x0000000000a118>
+Did you mean?  @post
+               @posts:
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/b5862917b22d34e4/variables" for ::1 at 2021-10-28 21:29:27 +1100
+Started GET "/" for ::1 at 2021-10-28 21:29:32 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.7ms | Allocations: 1060)
+  Rendered posts/_form.html.erb (Duration: 16.3ms | Allocations: 4669)
+  Rendered posts/index.html.erb within layouts/application (Duration: 22.6ms | Allocations: 6332)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 6429)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.3ms | Allocations: 7648)
+
+
+
+NameError - undefined local variable or method `post' for #<ActionView::Base:0x0000000000a230>
+Did you mean?  @post
+               @posts:
+  app/views/posts/_form.html.erb:2
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/d6e95e8ea6bf5db4/variables" for ::1 at 2021-10-28 21:29:33 +1100
+Started GET "/" for ::1 at 2021-10-28 21:29:50 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.4ms | Allocations: 1060)
+  Rendered posts/_form.html.erb (Duration: 13.2ms | Allocations: 2144)
+  Rendered posts/index.html.erb within layouts/application (Duration: 19.3ms | Allocations: 3802)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 3899)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.2ms | Allocations: 5110)
+
+
+
+NoMethodError - undefined method `errors' for #<ActionView::Helpers::FormBuilder:0x0000022609514858>:
+  app/views/posts/_form.html.erb:2
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/dec499799b1cddca/variables" for ::1 at 2021-10-28 21:29:50 +1100
+Started GET "/" for ::1 at 2021-10-28 21:30:15 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.4ms | Allocations: 1068)
+  Rendered posts/_form.html.erb (Duration: 5.7ms | Allocations: 3406)
+  Rendered posts/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 5075)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 5173)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.2ms | Allocations: 6401)
+
+
+
+NoMethodError - undefined method `to_key' for #<Post::ActiveRecord_Relation:0x0000022607c571a8>
+Did you mean?  to_ary
+               to_set:
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/cfc5dbd206a2f973/variables" for ::1 at 2021-10-28 21:30:15 +1100
+Started GET "/" for ::1 at 2021-10-28 21:30:33 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.5ms | Allocations: 1060)
+  Rendered posts/_form.html.erb (Duration: 16.3ms | Allocations: 5579)
+  Rendered posts/index.html.erb within layouts/application (Duration: 22.6ms | Allocations: 7244)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 7341)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.3ms | Allocations: 8558)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:8
+
+Started POST "/__better_errors/9b080dcb20c6c700/variables" for ::1 at 2021-10-28 21:30:34 +1100
+Started GET "/" for ::1 at 2021-10-28 21:30:47 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.5ms | Allocations: 1060)
+  Rendered posts/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 1447)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 84.5ms | Allocations: 9159)
+Completed 200 OK in 93ms (Views: 90.8ms | ActiveRecord: 0.3ms | Allocations: 10408)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:30:47 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:31:07 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.5ms | Allocations: 1049)
+  Rendered posts/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 1450)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 63.3ms | Allocations: 6348)
+Completed 200 OK in 73ms (Views: 70.1ms | ActiveRecord: 0.3ms | Allocations: 7592)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:31:08 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:32:32 +1100
+Processing by PostsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/posts_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.1ms | Allocations: 918)
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1065)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 56.7ms | Allocations: 5365)
+Completed 200 OK in 65ms (Views: 57.1ms | ActiveRecord: 1.5ms | Allocations: 8804)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:32:33 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/posts/new" for ::1 at 2021-10-28 21:32:33 +1100
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1871)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 1968)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2485)
+
+
+
+ActionView::MissingTemplate - Missing partial posts/_form, application/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "C:/Users/Joshua/Projects/smokemarket/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actiontext-6.1.4.1/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actionmailbox-6.1.4.1/app/views":
+  app/views/posts/new.html.erb:3
+
+Started POST "/__better_errors/1ac0536d5e478f9b/variables" for ::1 at 2021-10-28 21:32:34 +1100
+Started GET "/posts/new" for ::1 at 2021-10-28 21:33:12 +1100
+Processing by PostsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/posts_controller.rb:17:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 8.4ms | Allocations: 5846)
+  Rendered posts/new.html.erb within layouts/application (Duration: 10.4ms | Allocations: 6174)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 6271)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.2ms | Allocations: 10340)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/new.html.erb:3
+
+Started POST "/__better_errors/8961950367023afc/variables" for ::1 at 2021-10-28 21:33:12 +1100
+Started GET "/posts/new" for ::1 at 2021-10-28 21:35:13 +1100
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 5.5ms | Allocations: 5419)
+  Rendered posts/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 5512)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 5609)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 6002)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/new.html.erb:3
+
+Started POST "/__better_errors/2925546118ed6320/variables" for ::1 at 2021-10-28 21:35:13 +1100
+Started GET "/posts/new" for ::1 at 2021-10-28 21:35:20 +1100
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 5.4ms | Allocations: 5428)
+  Rendered posts/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 5521)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 5618)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 6010)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/new.html.erb:3
+
+Started POST "/__better_errors/af3bf02b341b8503/variables" for ::1 at 2021-10-28 21:35:21 +1100
+Started GET "/posts/new" for ::1 at 2021-10-28 21:35:31 +1100
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 5.8ms | Allocations: 5421)
+  Rendered posts/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 5514)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 5611)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 6003)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/new.html.erb:3
+
+Started POST "/__better_errors/6158ce56d99cd400/variables" for ::1 at 2021-10-28 21:35:32 +1100
+Started GET "/" for ::1 at 2021-10-28 21:35:39 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.7ms | Allocations: 1064)
+  Rendered posts/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1471)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 58.0ms | Allocations: 6365)
+Completed 200 OK in 61ms (Views: 58.1ms | ActiveRecord: 0.3ms | Allocations: 6965)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:35:39 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/posts/new" for ::1 at 2021-10-28 21:35:41 +1100
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 5.6ms | Allocations: 5441)
+  Rendered posts/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 5534)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 5631)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 6024)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/new.html.erb:3
+
+Started POST "/__better_errors/900cff43825254ac/variables" for ::1 at 2021-10-28 21:35:41 +1100
+Started GET "/posts/new" for ::1 at 2021-10-28 21:35:50 +1100
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 5.7ms | Allocations: 5419)
+  Rendered posts/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 5512)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 5609)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 6001)
+
+
+
+NoMethodError - undefined method `post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/new.html.erb:3
+
+Started POST "/__better_errors/d2be837c02ad4fac/variables" for ::1 at 2021-10-28 21:35:50 +1100
+Started GET "/posts/new" for ::1 at 2021-10-28 21:36:04 +1100
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 69.4ms | Allocations: 6757)
+  Rendered posts/new.html.erb within layouts/application (Duration: 71.6ms | Allocations: 7101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 127.9ms | Allocations: 11902)
+Completed 200 OK in 137ms (Views: 134.3ms | ActiveRecord: 0.0ms | Allocations: 13112)
+
+
+Started GET "/posts/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:36:04 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/posts/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/posts/new" for ::1 at 2021-10-28 21:36:27 +1100
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 2.0ms | Allocations: 724)
+  Rendered posts/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1066)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.7ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 51.6ms | Allocations: 5970)
+Completed 200 OK in 61ms (Views: 58.8ms | ActiveRecord: 0.0ms | Allocations: 7180)
+
+
+Started GET "/posts/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:36:27 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/posts/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:36:29 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.8ms | Allocations: 1049)
+  Rendered posts/_form.html.erb (Duration: 5.3ms | Allocations: 4594)
+  Rendered posts/index.html.erb within layouts/application (Duration: 21.4ms | Allocations: 6248)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 6345)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.4ms | Allocations: 6897)
+
+
+
+NameError - undefined local variable or method `post' for #<ActionView::Base:0x0000000000ece0>
+Did you mean?  @post
+               @posts:
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:10
+
+Started POST "/__better_errors/2edd2210cf58578c/variables" for ::1 at 2021-10-28 21:36:29 +1100
+Started GET "/" for ::1 at 2021-10-28 21:36:50 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.3ms | Allocations: 1050)
+  Rendered posts/_form.html.erb (Duration: 16.3ms | Allocations: 3350)
+  Rendered posts/index.html.erb within layouts/application (Duration: 22.7ms | Allocations: 5042)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 5139)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.3ms | Allocations: 6356)
+
+
+
+NoMethodError - undefined method `to_model' for #<Post::ActiveRecord_Relation:0x000002260a4351e8>
+Did you mean?  to_xml:
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:10
+
+Started POST "/__better_errors/18182bf8a3b75b17/variables" for ::1 at 2021-10-28 21:36:50 +1100
+Started GET "/" for ::1 at 2021-10-28 21:37:09 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.6ms | Allocations: 1050)
+  Rendered posts/_form.html.erb (Duration: 17.2ms | Allocations: 4235)
+  Rendered posts/index.html.erb within layouts/application (Duration: 23.9ms | Allocations: 5920)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 6017)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.3ms | Allocations: 7228)
+
+
+
+NoMethodError - undefined method `to_xml' for #<ActionView::Base:0x0000000000f078>
+Did you mean?  to_yaml:
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:10
+
+Started POST "/__better_errors/304708e24fc61ba5/variables" for ::1 at 2021-10-28 21:37:09 +1100
+Started GET "/" for ::1 at 2021-10-28 21:37:18 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.6ms | Allocations: 1050)
+  Rendered posts/_form.html.erb (Duration: 41.7ms | Allocations: 34037)
+  Rendered posts/index.html.erb within layouts/application (Duration: 48.5ms | Allocations: 35724)
+  Rendered layout layouts/application.html.erb (Duration: 48.7ms | Allocations: 35821)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.3ms | Allocations: 37033)
+
+
+
+TypeError - can't dump anonymous module: #<Module:0x0000022607d79888>:
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:10
+
+Started POST "/__better_errors/bb71810ed634459e/variables" for ::1 at 2021-10-28 21:37:18 +1100
+Started GET "/" for ::1 at 2021-10-28 21:37:26 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.4ms | Allocations: 1050)
+  Rendered posts/_form.html.erb (Duration: 6.1ms | Allocations: 4577)
+  Rendered posts/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 6269)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 6366)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.2ms | Allocations: 7583)
+
+
+
+NameError - undefined local variable or method `post' for #<ActionView::Base:0x000000000233e8>
+Did you mean?  @post
+               @posts:
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:10
+
+Started POST "/__better_errors/39285f1c9653c658/variables" for ::1 at 2021-10-28 21:37:27 +1100
+Started GET "/" for ::1 at 2021-10-28 21:37:34 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.4ms | Allocations: 1050)
+  Rendered posts/_form.html.erb (Duration: 6.7ms | Allocations: 4661)
+  Rendered posts/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 6351)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 6448)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.3ms | Allocations: 7665)
+
+
+
+NameError - undefined local variable or method `post' for #<ActionView::Base:0x00000000023528>
+Did you mean?  @post
+               @posts:
+  app/views/posts/_form.html.erb:2
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:10
+
+Started POST "/__better_errors/3370c284d70e47d2/variables" for ::1 at 2021-10-28 21:37:34 +1100
+Started GET "/" for ::1 at 2021-10-28 21:37:48 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 4.6ms | Allocations: 1050)
+  Rendered posts/_form.html.erb (Duration: 12.4ms | Allocations: 709)
+  Rendered posts/index.html.erb within layouts/application (Duration: 22.8ms | Allocations: 2395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 1.2ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 77.7ms | Allocations: 7289)
+Completed 200 OK in 90ms (Views: 85.4ms | ActiveRecord: 0.3ms | Allocations: 8533)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:37:48 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:38:32 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 1.5ms | Allocations: 720)
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 3.8ms | Allocations: 1048)
+  Rendered posts/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 2348)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 67.7ms | Allocations: 7242)
+Completed 200 OK in 78ms (Views: 75.2ms | ActiveRecord: 0.4ms | Allocations: 8486)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:38:33 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started POST "/posts" for ::1 at 2021-10-28 21:39:03 +1100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"content"=>"test"}, "commit"=>"Create Post", "authenticity_token"=>"[FILTERED]"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:29:in `block in create'
+  [1m[36mPost Create (2.0ms)[0m  [1m[32mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "test"], ["created_at", "2021-10-28 10:39:03.223800"], ["updated_at", "2021-10-28 10:39:03.223800"]]
+  ↳ app/controllers/posts_controller.rb:29:in `block in create'
+  [1m[36mTRANSACTION (48.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:29:in `block in create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 56ms (ActiveRecord: 50.5ms | Allocations: 2646)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:39:03 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 0.8ms | Allocations: 470)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 1.8ms | Allocations: 939)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 45.4ms | Allocations: 5933)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.3ms | Allocations: 6393)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:39:03 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:39:21 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 14.7ms | Allocations: 744)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.5ms | Allocations: 1130)
+  Rendered posts/index.html.erb within layouts/application (Duration: 21.3ms | Allocations: 2456)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 77.5ms | Allocations: 7353)
+Completed 200 OK in 87ms (Views: 84.1ms | ActiveRecord: 0.3ms | Allocations: 8597)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:39:22 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:39:33 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 21.1ms | Allocations: 740)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 3.2ms | Allocations: 1130)
+  Rendered posts/index.html.erb within layouts/application (Duration: 28.9ms | Allocations: 2448)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 72.0ms | Allocations: 7340)
+Completed 200 OK in 84ms (Views: 80.6ms | ActiveRecord: 0.3ms | Allocations: 8578)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:39:34 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:39:54 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 14.9ms | Allocations: 742)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.6ms | Allocations: 1130)
+  Rendered posts/index.html.erb within layouts/application (Duration: 21.9ms | Allocations: 2451)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.5ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 69.8ms | Allocations: 7344)
+Completed 200 OK in 79ms (Views: 76.5ms | ActiveRecord: 0.3ms | Allocations: 8588)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:39:54 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:39:56 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 1.3ms | Allocations: 490)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.0ms | Allocations: 937)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 55.0ms | Allocations: 5948)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.3ms | Allocations: 6402)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:40:39 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 17.8ms | Allocations: 5829)
+  Rendered posts/index.html.erb within layouts/application (Duration: 19.9ms | Allocations: 6194)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 6291)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms | Allocations: 7508)
+
+
+
+NoMethodError - undefined method `@post' for #<Post id: nil, content: nil, created_at: nil, updated_at: nil>:
+  app/views/posts/_form.html.erb:5
+  app/views/posts/_form.html.erb:1
+  app/views/posts/index.html.erb:7
+
+Started POST "/__better_errors/133a5df2f81cb5b9/variables" for ::1 at 2021-10-28 21:40:39 +1100
+Started GET "/" for ::1 at 2021-10-28 21:41:02 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 18.0ms | Allocations: 742)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.6ms | Allocations: 1131)
+  Rendered posts/index.html.erb within layouts/application (Duration: 24.4ms | Allocations: 2452)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 81.5ms | Allocations: 7351)
+Completed 200 OK in 90ms (Views: 87.5ms | ActiveRecord: 0.3ms | Allocations: 8595)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:41:02 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:41:04 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 0.9ms | Allocations: 490)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.2ms | Allocations: 937)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 5945)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.3ms | Allocations: 6399)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:41:05 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 0.9ms | Allocations: 480)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.2ms | Allocations: 935)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1612)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 62.7ms | Allocations: 5922)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.3ms | Allocations: 6375)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:41:18 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 14.0ms | Allocations: 604)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.6ms | Allocations: 1131)
+  Rendered posts/index.html.erb within layouts/application (Duration: 20.5ms | Allocations: 2319)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 71.2ms | Allocations: 7213)
+Completed 200 OK in 80ms (Views: 77.3ms | ActiveRecord: 0.3ms | Allocations: 8457)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:41:18 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:41:20 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 0.7ms | Allocations: 349)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.0ms | Allocations: 937)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1484)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 55.6ms | Allocations: 5804)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.3ms | Allocations: 6258)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:41:25 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 0.7ms | Allocations: 339)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.1ms | Allocations: 935)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1471)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 51.4ms | Allocations: 5791)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.3ms | Allocations: 6244)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:41:29 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 0.7ms | Allocations: 339)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.1ms | Allocations: 935)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1471)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 5790)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.3ms | Allocations: 6243)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:41:42 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 3.4ms | Allocations: 742)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.6ms | Allocations: 1131)
+  Rendered posts/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 2457)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.5ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 57.2ms | Allocations: 7341)
+Completed 200 OK in 66ms (Views: 63.4ms | ActiveRecord: 0.3ms | Allocations: 8585)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:41:43 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:41:45 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 1.0ms | Allocations: 490)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 1.9ms | Allocations: 937)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 5945)
+Completed 200 OK in 55ms (Views: 53.5ms | ActiveRecord: 0.3ms | Allocations: 6399)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:41:49 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 1.0ms | Allocations: 480)
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.4ms | Allocations: 935)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1612)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 56.7ms | Allocations: 5931)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.4ms | Allocations: 6384)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:41:52 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 1.0ms | Allocations: 480)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.2ms | Allocations: 935)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1612)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 47.4ms | Allocations: 5922)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.3ms | Allocations: 6375)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:41:52 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 1.1ms | Allocations: 480)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.0ms | Allocations: 935)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1612)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 51.2ms | Allocations: 5922)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.3ms | Allocations: 6375)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:41:53 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 0.9ms | Allocations: 480)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.2ms | Allocations: 935)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1612)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 45.8ms | Allocations: 5922)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.3ms | Allocations: 6375)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:42:03 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 3.1ms | Allocations: 720)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.7ms | Allocations: 1131)
+  Rendered posts/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 2435)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.6ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 71.3ms | Allocations: 7328)
+Completed 200 OK in 81ms (Views: 77.9ms | ActiveRecord: 0.3ms | Allocations: 8572)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:42:03 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started POST "/posts" for ::1 at 2021-10-28 21:42:06 +1100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"content"=>"Works"}, "commit"=>"Create Post", "authenticity_token"=>"[FILTERED]"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:29:in `block in create'
+  [1m[36mPost Create (1.2ms)[0m  [1m[32mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Works"], ["created_at", "2021-10-28 10:42:06.770623"], ["updated_at", "2021-10-28 10:42:06.770623"]]
+  ↳ app/controllers/posts_controller.rb:29:in `block in create'
+  [1m[36mTRANSACTION (13.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:29:in `block in create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 20ms (ActiveRecord: 14.9ms | Allocations: 2413)
+
+
+Started GET "/" for ::1 at 2021-10-28 21:42:06 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 0.9ms | Allocations: 470)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.1ms | Allocations: 1022)
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1692)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 44.6ms | Allocations: 6016)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.3ms | Allocations: 6476)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:42:07 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:42:29 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 14.0ms | Allocations: 1388)
+  Rendered posts/index.html.erb within layouts/application (Duration: 16.4ms | Allocations: 1752)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 1850)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms | Allocations: 3068)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= form_with(model: @post) do |form| %>
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+      <ul>
+        <% @post.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+    <%= form.label :content %>
+    <%= form.text_area :content %>
+  </div>
+  <div class="actions">
+    <%= form.submit, new_post_path, class: "btn btn-dark"  %>
+  </div>
+<% end %>:
+  app/views/posts/index.html.erb:7
+
+Started POST "/__better_errors/36bfd7e9455b49f6/variables" for ::1 at 2021-10-28 21:42:29 +1100
+Started POST "/__better_errors/36bfd7e9455b49f6/variables" for ::1 at 2021-10-28 21:42:38 +1100
+Started GET "/" for ::1 at 2021-10-28 21:43:06 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 15.3ms | Allocations: 1387)
+  Rendered posts/index.html.erb within layouts/application (Duration: 17.4ms | Allocations: 1754)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 1852)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms | Allocations: 3070)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= form_with(model: @post) do |form| %>
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+      <ul>
+        <% @post.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+    <%= form.label :content %>
+    <%= form.text_area :content %>
+  </div>
+  <div class="actions">
+    <%= form.submit,  class: "btn btn-dark btn-secondary btn-sm" %>
+  </div>
+<% end %>:
+  app/views/posts/index.html.erb:7
+
+Started POST "/__better_errors/c41bb6c2da82c26d/variables" for ::1 at 2021-10-28 21:43:06 +1100
+Started GET "/" for ::1 at 2021-10-28 21:43:18 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 3.0ms | Allocations: 720)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.6ms | Allocations: 1214)
+  Rendered posts/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 2513)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.5ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 66.8ms | Allocations: 7406)
+Completed 200 OK in 76ms (Views: 73.0ms | ActiveRecord: 0.3ms | Allocations: 8644)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:43:18 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 21:43:26 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 15.6ms | Allocations: 1387)
+  Rendered posts/index.html.erb within layouts/application (Duration: 17.9ms | Allocations: 1752)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 1850)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms | Allocations: 3068)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= form_with(model: @post) do |form| %>
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+      <ul>
+        <% @post.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+    <%= form.label :content %>
+    <%= form.text_area :content %>
+  </div>
+  <div class="actions">
+    <%= form.submit, class: "btn btn-dark btn-secondary btn-sm" %>
+  </div>
+<% end %>:
+  app/views/posts/index.html.erb:7
+
+Started POST "/__better_errors/c05a7dfcea8d8972/variables" for ::1 at 2021-10-28 21:43:26 +1100
+Started GET "/" for ::1 at 2021-10-28 21:43:31 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 3.1ms | Allocations: 720)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 2.9ms | Allocations: 1214)
+  Rendered posts/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 2518)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 62.6ms | Allocations: 7412)
+Completed 200 OK in 73ms (Views: 70.0ms | ActiveRecord: 0.3ms | Allocations: 8656)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:43:31 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20211028104449)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20211028104449"]]
+  [1m[36mTRANSACTION (44.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2021-10-28 21:46:43 +1100
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 16.7ms | Allocations: 3234)
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 3.5ms | Allocations: 1261)
+  Rendered posts/index.html.erb within layouts/application (Duration: 25.2ms | Allocations: 5208)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.4ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 87.8ms | Allocations: 12916)
+Completed 200 OK in 112ms (Views: 95.3ms | ActiveRecord: 1.6ms | Allocations: 18339)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:46:43 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/users/sign_in" for ::1 at 2021-10-28 21:46:45 +1100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 573)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 86.7ms | Allocations: 16593)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 134.3ms | Allocations: 20868)
+Completed 200 OK in 165ms (Views: 144.9ms | ActiveRecord: 0.8ms | Allocations: 26557)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-10-28 21:46:47 +1100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 107)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 16.1ms | Allocations: 7026)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 62.8ms | Allocations: 11297)
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms | Allocations: 12501)
+
+
+Started GET "/users/edit" for ::1 at 2021-10-28 21:46:50 +1100
+Processing by Devise::RegistrationsController#edit as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 216)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-10-28 21:46:50 +1100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.1ms | Allocations: 8608)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 58.0ms | Allocations: 12904)
+Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.0ms | Allocations: 13537)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-10-28 21:46:53 +1100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.5ms | Allocations: 8598)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 61.0ms | Allocations: 12861)
+Completed 200 OK in 62ms (Views: 61.4ms | ActiveRecord: 0.0ms | Allocations: 13483)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-10-28 21:46:54 +1100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 9.0ms | Allocations: 6503)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 58.2ms | Allocations: 10769)
+Completed 200 OK in 59ms (Views: 58.7ms | ActiveRecord: 0.0ms | Allocations: 11314)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddFieldsToUsers (20211028105241)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.4ms)[0m  [1m[35mALTER TABLE "users" ADD "name" varchar[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "username" varchar[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddFieldsToUsers (20211028105241)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.5ms)[0m  [1m[35mALTER TABLE "users" ADD "name" varchar[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "username" varchar[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddFieldsToUsers (20211028105241)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.5ms)[0m  [1m[35mALTER TABLE "users" ADD "name" varchar[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "username" varchar[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_username" ON "users" ("username")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20211028105241"]]
+  [1m[36mTRANSACTION (39.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/sign_up" for ::1 at 2021-10-28 21:56:25 +1100
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 502)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 56.7ms | Allocations: 16313)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 9.4ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 133.8ms | Allocations: 23986)
+Completed 200 OK in 166ms (Views: 149.5ms | ActiveRecord: 0.8ms | Allocations: 32390)
+
+
+Started GET "/users/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:56:26 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/users/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/users/sign_up" for ::1 at 2021-10-28 21:57:19 +1100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 446)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 42.4ms | Allocations: 10676)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.5ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 95.4ms | Allocations: 15517)
+Completed 200 OK in 108ms (Views: 107.1ms | ActiveRecord: 0.0ms | Allocations: 17195)
+
+
+Started GET "/users/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:57:19 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/users/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/users/edit" for ::1 at 2021-10-28 21:59:11 +1100
+Processing by Devise::RegistrationsController#edit as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 218)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-10-28 21:59:12 +1100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 559)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.1ms | Allocations: 9712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.5ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 71.0ms | Allocations: 14569)
+Completed 200 OK in 85ms (Views: 83.0ms | ActiveRecord: 0.0ms | Allocations: 16586)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-10-28 21:59:18 +1100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 12.0ms | Allocations: 8625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 55.3ms | Allocations: 12912)
+Completed 200 OK in 56ms (Views: 55.8ms | ActiveRecord: 0.0ms | Allocations: 13524)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-10-28 21:59:20 +1100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 13.1ms | Allocations: 9784)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered layout layouts/application.html.erb (Duration: 67.6ms | Allocations: 14076)
+Completed 200 OK in 75ms (Views: 74.4ms | ActiveRecord: 0.0ms | Allocations: 15203)
+
+
+Started POST "/users" for ::1 at 2021-10-28 21:59:31 +1100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"Josahu", "username"=>"hihi", "email"=>"joshua.mu02@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+[31mUnpermitted parameters: :name, :username[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "joshua.mu02@hotmail.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.2ms | Allocations: 10398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 51.6ms | Allocations: 14699)
+Completed 200 OK in 289ms (Views: 52.1ms | ActiveRecord: 0.4ms | Allocations: 21543)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:59:31 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/users/edit" for ::1 at 2021-10-28 21:59:35 +1100
+Processing by Devise::RegistrationsController#edit as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-10-28 21:59:35 +1100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 116)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.5ms | Allocations: 8639)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered layout layouts/application.html.erb (Duration: 54.3ms | Allocations: 12972)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms | Allocations: 13605)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-10-28 21:59:40 +1100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.7ms | Allocations: 8616)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 57.3ms | Allocations: 12901)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.0ms | Allocations: 13512)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-10-28 21:59:48 +1100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"joshua.mu02@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "joshua.mu02@hotmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 90ms (ActiveRecord: 0.3ms | Allocations: 4814)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"joshua.mu02@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.5ms | Allocations: 8586)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.2ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 12877)
+Completed 200 OK in 258ms (Views: 55.1ms | ActiveRecord: 0.0ms | Allocations: 13456)
+
+
+Started GET "/users/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 21:59:49 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/users/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/users/sign_up" for ::1 at 2021-10-28 21:59:52 +1100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.5ms | Allocations: 9462)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 57.5ms | Allocations: 13756)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms | Allocations: 14304)
+
+
+Started POST "/users" for ::1 at 2021-10-28 22:00:02 +1100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"Josahu", "username"=>"hihi", "email"=>"joshua.mu02@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+[31mUnpermitted parameters: :name, :username[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "joshua.mu02@hotmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "joshua.mu02@hotmail.com"], ["encrypted_password", "$2a$12$vsbkaBAPk1xz4SlvAEAPpO3L5lK7KFQDSsuzKaULE/jn1eu45JyxW"], ["created_at", "2021-10-28 11:00:02.325631"], ["updated_at", "2021-10-28 11:00:02.325631"]]
+  [1m[36mTRANSACTION (13.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users/edit
+Completed 302 Found in 230ms (ActiveRecord: 15.1ms | Allocations: 5820)
+
+
+Started GET "/users/edit" for ::1 at 2021-10-28 22:00:02 +1100
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 48.0ms | Allocations: 10269)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.1ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 86.9ms | Allocations: 14535)
+Completed 200 OK in 92ms (Views: 89.1ms | ActiveRecord: 0.3ms | Allocations: 16265)
+
+
+Started GET "/users/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 22:00:02 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/users/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/users/edit" for ::1 at 2021-10-28 22:01:52 +1100
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 13.1ms | Allocations: 10121)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 9.3ms | Allocations: 214)
+  Rendered layout layouts/application.html.erb (Duration: 73.3ms | Allocations: 14990)
+Completed 200 OK in 89ms (Views: 86.1ms | ActiveRecord: 0.3ms | Allocations: 17670)
+
+
+Started GET "/users/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 22:01:52 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/users/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/users/edit" for ::1 at 2021-10-28 22:17:37 +1100
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 11.2ms | Allocations: 9730)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.3ms | Allocations: 32)
+  Rendered layout layouts/application.html.erb (Duration: 67.3ms | Allocations: 13988)
+Completed 200 OK in 73ms (Views: 67.9ms | ActiveRecord: 0.8ms | Allocations: 16588)
+
+
+Started GET "/pages/community" for ::1 at 2021-10-28 22:17:39 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/pages/community"):
+  
+Started GET "/users/edit" for ::1 at 2021-10-28 22:17:43 +1100
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 11.5ms | Allocations: 9721)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.1ms | Allocations: 32)
+  Rendered layout layouts/application.html.erb (Duration: 53.2ms | Allocations: 13979)
+Completed 200 OK in 56ms (Views: 53.7ms | ActiveRecord: 0.2ms | Allocations: 15550)
+
+
+Started GET "/users/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 22:17:43 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/users/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 22:17:44 +1100
+
+SyntaxError - syntax error, unexpected ':', expecting `end'
+  before_action : authenticate_user!, except: ...
+                ^:
+  app/controllers/posts_controller.rb:4:in `'
+
+Started POST "/__better_errors/ddc5d261c71b9d5b/variables" for ::1 at 2021-10-28 22:17:44 +1100
+Started GET "/" for ::1 at 2021-10-28 22:18:24 +1100
+Processing by PostsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/posts_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 6.0ms | Allocations: 1032)
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  Rendered posts/_feed.html.erb (Duration: 5.8ms | Allocations: 1239)
+  Rendered posts/index.html.erb within layouts/application (Duration: 21.5ms | Allocations: 2862)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/_header.html.erb:18
+  Rendered pages/_header.html.erb (Duration: 10.7ms | Allocations: 5215)
+  Rendered layout layouts/application.html.erb (Duration: 94.6ms | Allocations: 12372)
+Completed 200 OK in 118ms (Views: 104.2ms | ActiveRecord: 3.6ms | Allocations: 16243)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 22:18:25 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/" for ::1 at 2021-10-28 22:22:54 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 1.5ms | Allocations: 720)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/_feed.html.erb:10
+  Rendered posts/_feed.html.erb (Duration: 6.4ms | Allocations: 2158)
+  Rendered posts/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 3455)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.6ms | Allocations: 210)
+  Rendered layout layouts/application.html.erb (Duration: 69.8ms | Allocations: 8404)
+Completed 200 OK in 82ms (Views: 79.2ms | ActiveRecord: 0.5ms | Allocations: 9651)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 22:22:55 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started POST "/posts" for ::1 at 2021-10-28 22:23:02 +1100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"content"=>"test"}, "commit"=>"Create Post", "authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:31:in `block in create'
+  [1m[36mPost Create (1.1ms)[0m  [1m[32mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "test"], ["created_at", "2021-10-28 11:23:02.503199"], ["updated_at", "2021-10-28 11:23:02.503199"]]
+  ↳ app/controllers/posts_controller.rb:31:in `block in create'
+  [1m[36mTRANSACTION (31.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:31:in `block in create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 94ms (ActiveRecord: 33.1ms | Allocations: 7025)
+
+
+Started GET "/" for ::1 at 2021-10-28 22:23:02 +1100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 1.0ms | Allocations: 467)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC[0m
+  ↳ app/views/posts/_feed.html.erb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/_feed.html.erb:10
+  Rendered posts/_feed.html.erb (Duration: 4.7ms | Allocations: 2021)
+  Rendered posts/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2688)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.1ms | Allocations: 31)
+  Rendered layout layouts/application.html.erb (Duration: 55.5ms | Allocations: 7038)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.5ms | Allocations: 7505)
+
+
+Started GET "/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 22:23:02 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
+Started GET "/users/edit" for ::1 at 2021-10-28 22:30:28 +1100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 57.8ms | Allocations: 19542)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/_header.html.erb (Duration: 0.6ms | Allocations: 219)
+  Rendered layout layouts/application.html.erb (Duration: 121.3ms | Allocations: 27240)
+Completed 200 OK in 162ms (Views: 143.6ms | ActiveRecord: 1.1ms | Allocations: 37765)
+
+
+Started GET "/users/%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22" for ::1 at 2021-10-28 22:30:29 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/users/%E2%80%9Dhttps:/cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css%22"):
+  
