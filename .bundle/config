@@ -1,3 +1,6 @@
 ---
 BUNDLE_WITHOUT: "production"
+<<<<<<< HEAD
 BUNDLE_WITH: "development"
+=======
+>>>>>>> parent of 4e881992 (Community Complete)
