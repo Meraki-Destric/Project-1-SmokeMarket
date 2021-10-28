@@ -12,16 +12,16 @@
             <p class="card-text"><%= post.content %></p>
           </div>
         </div>
+        <% if user_signed_in? && current_user.id == post.user_id %>
+          <nav class="level">
+            <div class="level-left is-mobile">
+              <%= link_to 'Edit', edit_post_path(post), class: "btn btn-dark btn-secondary btn-sm" %>
+              <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure you want to delete this post??' }, 
+            class: "btn btn-dark btn-secondary btn-sm"  %>
+            </div>
+          </nav>
+        <% end %>
       <%end%>
     </figure>
   </article>
 </div>
-<% if user_signed_in? && current_user.id == post.user_id %>
-  <nav class="level">
-    <div class="level-left is-mobile">
-      <%= link_to 'Edit', edit_post_path(post), class: "btn btn-dark btn-secondary btn-sm" %>
-      <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure you want to delete this post??' }, 
-            class: "btn btn-dark btn-secondary btn-sm"  %>
-    </div>
-  </nav>
-<% end %>
