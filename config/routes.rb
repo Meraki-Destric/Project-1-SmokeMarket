@@ -1,6 +1,5 @@
-require "sidekiq/web"
-
 Rails.application.routes.draw do
+<<<<<<< HEAD
   # The registrations controller will redirect the user after they signup
   devise_for :users, controller: { registrations: "registrations" }
   resources :library, only[:index]
@@ -13,4 +12,7 @@ Rails.application.routes.draw do
   end
 
   root "games#index"
+=======
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+>>>>>>> parent of 01cc2cd (Games Controller)
 end
